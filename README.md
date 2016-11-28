@@ -2,30 +2,30 @@
 ####Alkalmazások fejlesztése beadandó dokumentáció: Zentai Dávid (YX063S)
 ##Alkalmazás rövid leírása: 
 Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a közös kasszájuk bevételeit illetve kiadásait.
-Funkcionális leírás:
+##Funkcionális leírás:
 
-A szoftverrel bejelentkezés nélkül
-•	el tudjuk olvasni az oldal rövid bemutatását
-A szoftverrel bejelentkezés után
-•	megtekinthetjük profilunkat
-•	módosíthatjuk jelszavunkat
-•	kilistázhatjuk a bevételeket, illetve a kiadásokat
-•	hozzáadhatunk bevételt
-•	módosíthatunk saját bevételt
-•	hozzáadhatunk, módosíthatunk és törölhetünk kiadást
-•	kiléphetünk felhasználói fiókunkból
-A szoftverrel Adminisztrátori bejelentkezés után
-•	kilistázhatjuk a felhasználókat
-•	módosíthatjuk bármely felhasználó jelszavát
-•	törölhetünk és létrehozhatunk felhasználót
-•	kiléphetünk az adminisztrátori fiókból
-Nem funcionális leírás:
-•	Felhasználóbarátság
-•	Ergonómia
-•	Gyors működés
-•	Autentikáció
-•	Autorizáció
-•	Karbantartható kódok
+<dl>
+    <dt>A szoftverrel bejelentkezés nélkül:</dt>
+        <dd>el tudjuk olvasni az oldal rövid bemutatását</dd>
+        <dd>tudunk regisztrálni</dd>
+    <dt>A szoftverrel bejelentkezés után:</dt>
+        <dd>lekérdezhetjük a kassza egyenlegét</dd>
+        <dd>hozzáadhatunk, módosíthatunk és törölhetünk bevételt</dd>
+        <dt>hozzáadhatunk, módosíthatunk és törölhetünk kiadást</dd>
+        <dd>kiléphetünk felhasználói fiókunkból<dd>
+</dl>
+
+<dl>
+    <dt>Nem funcionális leírás:</dt>
+        <dd>Felhasználóbarátság</dd>
+        <dd>Ergonómia</dd>
+        <dd>Gyors működés</dd>
+        <dd>Autentikáció</dd>
+        <dd>Autorizáció</dd>
+        <dd>Karbantartható kódok</dd>
+</dl>
+
+
 Oldaltérkép:
 
 Bejelentkezés nélkül elérhető:
