@@ -51,5 +51,3 @@ POST /balance/create: tranzakció létrehozási adatainak küldése
 GET /balance/user.id/edit: tranzakció szerkesztése
 POST /balance/user.id/edit: szerkesztett tranzakció adatainak küldése
 GET /balance/user.id/delete: tranzakció törlése
-
-Oldalvázlatok:
