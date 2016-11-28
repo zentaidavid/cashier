@@ -7,6 +7,7 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 #####A szoftverrel bejelentkezés nélkül
 + el tudjuk olvasni az oldal rövid bemutatását
 + regisztrálhetunk
+
 #####A szoftverrel bejelentkezés után
 + kilistázhatjuk a kassza egyenlegét
 + hozzáadhatunk, módosíthatunk és törölhetünk bevételt
