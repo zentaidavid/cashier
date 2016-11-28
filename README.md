@@ -6,8 +6,8 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 
 <dl>
     <dt>A szoftverrel bejelentkezés nélkül:</dt>
-        <dd>*el tudjuk olvasni az oldal rövid bemutatását
-            *tudunk regisztrálni</dd>
+        *el tudjuk olvasni az oldal rövid bemutatását
+            *tudunk regisztrálni
     <dt>A szoftverrel bejelentkezés után:</dt>
         <dd>lekérdezhetjük a kassza egyenlegét</dd>
         <dd>hozzáadhatunk, módosíthatunk és törölhetünk bevételt</dd>
