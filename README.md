@@ -37,29 +37,19 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 + Tranzakció törlése
 + Kilépés a felhasználói fiókból
 
-#####Végpontok:
+##Végpontok:
 
 GET /: főoldal 
 GET /login: bejelentkezési oldal 
-POST /login: bejelntkezési adatok küldése 
-GET /profile: profil jelszó változtatása 
-POST /profile: profil jelszó módosítása 
-GET /proceeds: bevételek listázása 
-GET /proceeds/modify: bevétel módosítása 
-POST /proceeds/modify: bevétel módosított adatainak küldése 
-GET /proceeds/create: új bevétel hozzáadása 
-POST /proceeds/create: új bevétel adatainak küldése 
-GET /expenditure: kiadások listázása 
-GET /expenditure/modify: kiadások módosítása 
-POST /expenditure/modify: kiadások módosított adatainak elküldése 
-GET /expenditure/create: új kiadás hozzáadása 
-POST /expenditure/create: új kiadás adatainak küldése 
-POST /expenditure/delete: kiadás törlése 
-GET /users: felhasználók listázása 
-GET /users/modify: felhasználó adatainak módosítása 
-POST /users/modify: felhasználó módosított adatainak elküldése 
-GET /users/create: új felhasználó hozzáadása 
-POST /users/create: új felhasználó adatainak küldése 
-POST /users/delete: felhasználó törlése 
-POST /logout: kijelentkezés
+POST /login: bejelntkezési adatok küldése
+GET /logout: kijelentkezés
+GET /register: regiszrációs oldal
+POST /register: regiszrációs adatok küldése 
+GET /balance: tranzakciók listázása
+GET /balance/create: tranzakció létrehozási felülete
+POST /balance/create: tranzakció létrehozási adatainak küldése
+GET /balance/user.id/edit: tranzakció szerkesztése
+POST /balance/user.id/edit: szerkesztett tranzakció adatainak küldése
+GET /balance/user.id/delete: tranzakció törlése
+
 Oldalvázlatok:
