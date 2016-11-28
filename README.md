@@ -4,32 +4,25 @@
 Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a közös kasszájuk bevételeit illetve kiadásait.
 ##Funkcionális leírás:
 
-<dl>
-</dl>
-A szoftverrel bejelentkezés nélkül
+#####A szoftverrel bejelentkezés nélkül
 + el tudjuk olvasni az oldal rövid bemutatását
 + regisztrálhetunk
-A szoftverrel bejelentkezés után
-•	megtekinthetjük profilunkat
-•	módosíthatjuk jelszavunkat
-•	kilistázhatjuk a bevételeket, illetve a kiadásokat
-•	hozzáadhatunk bevételt
-•	módosíthatunk saját bevételt
-•	hozzáadhatunk, módosíthatunk és törölhetünk kiadást
-•	kiléphetünk felhasználói fiókunkból
-A szoftverrel Adminisztrátori bejelentkezés után
-•	kilistázhatjuk a felhasználókat
-•	módosíthatjuk bármely felhasználó jelszavát
-•	törölhetünk és létrehozhatunk felhasználót
-•	kiléphetünk az adminisztrátori fiókból
-Nem funcionális leírás:
-•	Felhasználóbarátság
-•	Ergonómia
-•	Gyors működés
-•	Autentikáció
-•	Autorizáció
-•	Karbantartható kódok
-Oldaltérkép:
+#####A szoftverrel bejelentkezés után
++ kilistázhatjuk a kassza egyenlegét
++ hozzáadhatunk, módosíthatunk és törölhetünk bevételt
++ hozzáadhatunk, módosíthatunk és törölhetünk kiadást
++ kiléphetünk felhasználói fiókunkból
+
+
+##Nem funcionális leírás:
++ Felhasználóbarátság
++ Ergonómia
++ Gyors működés
++ Autentikáció
++ Autorizáció
++ Karbantartható kódok
+
+##Oldaltérkép:
 
 Bejelentkezés nélkül elérhető:
 •	Az oldal leírását tartalmazó nyitólap
