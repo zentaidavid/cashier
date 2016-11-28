@@ -6,7 +6,7 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 
 #####A szoftverrel bejelentkezés nélkül
 + el tudjuk olvasni az oldal rövid bemutatását
-+ regisztrálhetunk
++ regisztrálhatunk
 
 #####A szoftverrel bejelentkezés után
 + kilistázhatjuk a kassza egyenlegét
@@ -25,28 +25,20 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 
 ##Oldaltérkép:
 
-Bejelentkezés nélkül elérhető:
-•	Az oldal leírását tartalmazó nyitólap
-•	Bejelentkezési oldal
+#####Bejelentkezés nélkül elérhető:
++ Az oldal leírását tartalmazó nyitólap
++ Regiszráció
++ Bejelentkezési oldal
 
-Felhasználóként elérhető:
-•	Bevételek listázása
-o	Saját bevétel módosítása
-o	Bevétel hozzáadása
-•	Kiadások listázása
-o	Saját kiadás módosítása
-o	Kiadás hozzáadása
-o	Saját kiadás törlése
-•	Profil megtekintése
-•	Kilépés a felhasználói fiókból
+#####Felhasználóként elérhető:
++ Tranzakciók listázása
++ Tranzakció módosítása
++ Tranzakció létrehozása
++ Tranzakció törlése
++ Kilépés a felhasználói fiókból
 
-Adminisztátorként elérhető:
-•	Felhesználó listázása
-o	Felhasználó módosítása (jelszó)
-o	Felhasználó törlése
-o	Felhasználó hozzáadása
-•	kilépés az Admin profilból
-Végpontok:
+#####Végpontok:
+
 GET /: főoldal 
 GET /login: bejelentkezési oldal 
 POST /login: bejelntkezési adatok küldése 
