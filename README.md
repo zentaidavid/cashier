@@ -1,8 +1,7 @@
 #Alkalmazások fejlesztése
-###beadandó dokumentáció
-###Zentai Dávid (YX063S)
-Házikassza kezelő alkalmazás
-Alkalmazás rövid leírása: 
+####Beadandó dokumentáció: Zentai Dávid (YX063S)
+##Házikassza kezelő alkalmazás
+------ Alkalmazás rövid leírása: 
 Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a közös kasszájuk bevételeit illetve kiadásait.
 Funkcionális leírás:
 
