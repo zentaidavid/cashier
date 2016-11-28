@@ -1,0 +1,47 @@
+{% extends 'master' %}
+
+{% block content %}
+<h1>Tranzakció létrehozása</h1>
+
+{% if old('errors') %}
+<div class="alert alert-danger" role="alert">
+    <ul>
+    {% for error in old('errors') %}
+    <li>{{ error.message }}</li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+<form class="form-horizontal" action="/balance/create" method="POST">
+  {{ csrfField }}
+  <div class="form-group">
+    <label for="inputName" class="col-sm-2 control-label">Összeg</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputName" name="amount">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputCategory" class="col-sm-2 control-label">Kategória</label>
+    <div class="col-sm-10">
+      <select class="form-control" id="inputCategory" name="category">
+        {% for category in categories %}
+        <option value="{{ category.id }}">{{ category.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputIngredients" class="col-sm-2 control-label">Közlemény</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" id="inputIngredients" name="comment"></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-success">Létrehozása</button>
+    </div>
+  </div>
+</form>
+
+{% endblock %}

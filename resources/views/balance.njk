@@ -1,0 +1,39 @@
+{% extends 'master' %}
+
+{% block content %}
+
+<h1>Tranzakciók lekérdezése</h1>
+
+<div class="row">
+  <table class="table table-striped">
+    <tr>
+      <th>Összeg</th>
+      <th>Közlemény</th>
+      <th>Tranzakciót kezdeményező neve</th>
+      <th>Tranzakció típusa</th>
+      <th>Módosítás</th>
+      <th>Törlés</th>
+    </tr>
+    {% for category in categories %}
+    {% for balance in category.topBalances %}
+    <tr>
+      <td>{{ balance.amount }}</td>
+      <td>{{ balance.comment }}</td>
+      <td>{{ balance.user_id }}</td>
+      <td>{{ category.name }}</td>
+      <td>
+        <a href="/balance/{{ balance.id }}/edit" class="btn btn-warning" role="button">Módosítás</a>
+      </td>
+      <td>
+        <form action="/balance/{{ balance.id }}/delete" method="POST">
+          {{ csrfField }}
+          <button type="submit" class="btn btn-danger">Törlés</button>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+    {% endfor %}
+  </table>
+</div>
+<a href="/balance/create" class="btn btn-success" role="button">Új</a>
+{% endblock %}
