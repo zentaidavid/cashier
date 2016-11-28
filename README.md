@@ -39,10 +39,10 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 
 ##Végpontok:
 
-⋅⋅⋅GET /: főoldal 
-⋅⋅⋅GET /login: bejelentkezési oldal 
-⋅⋅⋅POST /login: bejelntkezési adatok küldése
-⋅⋅⋅GET /logout: kijelentkezés
+   GET /: főoldal 
+   GET /login: bejelentkezési oldal 
+   POST /login: bejelntkezési adatok küldése
+   GET /logout: kijelentkezés
 GET /register: regiszrációs oldal
 POST /register: regiszrációs adatok küldése 
 GET /balance: tranzakciók listázása
