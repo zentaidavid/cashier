@@ -55,4 +55,12 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 ##Oldalképek:
 
 #####Főoldal:
-![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/main.PNG "Logo Title Text 1")
+![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/main.PNG "Az oldal leírása")
+#####Regiszráció:
+![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/register.PNG "Regiszrációs oldal")
+#####Bejelentkezés:
+![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/login.PNG "Bejelentkezési oldal")
+#####Tranzakciók kilistázása:
+![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance.PNG "Tranzakciók listájának az oldala")
+#####Tranzakció létrehozása:
+![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance-create.PNG "Új tranzakció létrehozása")
