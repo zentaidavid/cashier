@@ -47,7 +47,7 @@ class UserController {
         yield req.auth.login(user)
 
         // 4. válasz generálása
-        res.redirect('/')
+        res.redirect('/balance')
     }
 
     * doLogin (req, res) {
@@ -58,7 +58,7 @@ class UserController {
         // 3.
         try {
             yield req.auth.attempt(email, password)
-            res.redirect('/')
+            res.redirect('/balance')
         } catch (ex) {
             yield req
                 .with({ error: 'Rossz belépési adatok.' })
