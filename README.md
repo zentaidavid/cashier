@@ -55,3 +55,4 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 ##Oldalképek:
 
 #####Főoldal:
+![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/main.PNG "Logo Title Text 1")
