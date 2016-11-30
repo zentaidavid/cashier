@@ -38,7 +38,7 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 + Kilépés a felhasználói fiókból
 
 #####Use case diagram:
-![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/usecase.PNG "Use case diagram")
+![use case](https://github.com/zentaidavid/cashier/blob/master/docs/images/usecase.png "Use case diagram")
 
 ##Végpontok:
 
@@ -60,15 +60,15 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 #####Főoldal:
 ![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/main.PNG "Az oldal leírása")
 #####Regiszráció:
-![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/register.PNG "Regiszrációs oldal")
+![register](https://github.com/zentaidavid/cashier/blob/master/docs/images/register.PNG "Regiszrációs oldal")
 #####Bejelentkezés:
-![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/login.PNG "Bejelentkezési oldal")
+![login](https://github.com/zentaidavid/cashier/blob/master/docs/images/login.PNG "Bejelentkezési oldal")
 #####Tranzakciók kilistázása:
-![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance.PNG "Tranzakciók listájának az oldala")
+![balance](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance.PNG "Tranzakciók listájának az oldala")
 #####Tranzakció létrehozása:
-![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance-create.PNG "Tranzakció módosítása")
+![balance-create](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance-create.PNG "Tranzakció módosítása")
 #####Tranzakció módosítása:
-![main](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance-modify.PNG "Új tranzakció létrehozása")
+![balance-modify](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance-modify.PNG "Új tranzakció létrehozása")
 
 ##felhasználói dokumentáció:
 
