@@ -1,5 +1,9 @@
 {% extends 'master' %}
 
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+{% endblock %}
+
 {% block content %}
 <h1>Tranzakció létrehozása</h1>
 
@@ -13,12 +17,14 @@
 </div>
 {% endif %}
 
-<form class="form-horizontal" action="/balance/create" method="POST">
+<form class="form-horizontal" action="/balance/create" method="POST" data-toggle="validator">
   {{ csrfField }}
-  <div class="form-group">
+  <div class="form-group has-feedback">
     <label for="inputName" class="col-sm-2 control-label">Összeg</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputName" name="amount">
+      <input required pattern="{2,}" type="number" class="form-control" id="inputName" name="amount" value="{{ old('name') }}">
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
     </div>
   </div>
   <div class="form-group">
@@ -31,10 +37,12 @@
       </select>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group has-feedback">
     <label for="inputIngredients" class="col-sm-2 control-label">Közlemény</label>
     <div class="col-sm-10">
-      <textarea class="form-control" id="inputIngredients" name="comment"></textarea>
+      <textarea required class="form-control" id="inputIngredients" name="comment">{{ old('comment') }}</textarea>
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+      <div class="help-block with-errors"></div>
     </div>
   </div>
   <div class="form-group">

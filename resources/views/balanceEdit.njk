@@ -1,5 +1,9 @@
 {% extends 'master' %}
 
+{% block scripts %}
+<script src="/scripts/smartBalance.js"></script>
+{% endblock %}
+ 
 {% block content %}
 <h1>Tranzakció módosítása</h1>
 
@@ -44,7 +48,7 @@
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-success">Tranzakció mentése</button>
-      <a class="btn btn-default" href="/balance/{{ balance.id }}" role="button">Vissza</a>
+      <a class="btn btn-default" href="/balance" role="button">Vissza</a>
     </div>
   </div>
 </form>
