@@ -95,13 +95,16 @@ Internet böngésző telepítése, JavaScript ajánlott
 **Tranzakció módosítása:**
 + Felsorolás szerűen lehet ezentúl a tranzakció kommentjéhez elemeket rendelni
 + Egy "X" és egy "+" gomb került a felhasználói felületen elhelyezésre, a felhasználói élmény növelése érdekében. Ezekkel lehet elemet hozzáadni egy tranzakcióhoz, illetve azt törölni.
+
 **Tranzakció létrehozása:**
 + Máshogy figyelmeztet a rosszul, illetve hibásan kitöltött mezőkre az alkalmazás
 + Ebben az esetben a kijavításig nem lehet elküldeni az adatokat a szervernek, a küldés gomb nem kattintható
 + Nem vesznek el a hibásan kitöltött adatok mezői az oldal frissülésekor
+
 **Törlés:**
 + A recept törlése Ajax-al működik
 + A törlés gombra kattintva párbeszédablakban megerősítést vár
+
 **Bejelentkezés:**
 + A bejelentkezés gombra kattintva párbeszédablak ugrik fel, ahol megadhatjuk a belépéshez szükséges adatainkat
 + Hibás adatok esetén máshogy figyelmeztet az oldal mint eddig
@@ -111,7 +114,9 @@ Internet böngésző telepítése, JavaScript ajánlott
 + smartBalance.js
 + ajaxDelete.js
 + ajaxLogin.js
+
 #####Módosult:
+
 **View:**
 + master.njk
 + main.njk
@@ -119,6 +124,7 @@ Internet böngésző telepítése, JavaScript ajánlott
 + balanceCreate.njk
 + balanceEdit.njk
 + login.njk
+
 **Contoller:**
 + BalanceController.js
 + UserController.js
