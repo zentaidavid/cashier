@@ -23,17 +23,18 @@ Route.get('/balance', 'BalanceController.main')
 Route.get('/balance/create', 'BalanceController.create').middleware('auth')
 Route.post('/balance/create', 'BalanceController.doCreate').middleware('auth')
 
-Route.get('/balance/:id/edit', 'BalanceController.edit')
-Route.post('/balance/:id/edit', 'BalanceController.doEdit')
-Route.post('/balance/:id/delete', 'BalanceController.doDelete')
+Route.get('/balance/:id/edit', 'BalanceController.edit').middleware('auth')
+Route.post('/balance/:id/edit', 'BalanceController.doEdit').middleware('auth')
+Route.post('/balance/:id/delete', 'BalanceController.doDelete').middleware('auth')
 
 Route.get('/register', 'UserController.register')
 Route.post('/register', 'UserController.doRegister')
 
 Route.get('/login', 'UserController.login')
 Route.post('/login', 'UserController.doLogin')
-Route.get('/logout', 'UserController.doLogout')
+Route.get('/logout', 'UserController.doLogout').middleware('auth')
 
 Route.group('ajax', function () {
-   Route.delete('/balance/:id/delete', 'BalanceController.ajaxDelete').middleware('auth')
+    Route.post('/login', 'UserController.ajaxLogin')
+    Route.delete('/balance/:id/delete', 'BalanceController.ajaxDelete').middleware('auth')
 }).prefix('/ajax')

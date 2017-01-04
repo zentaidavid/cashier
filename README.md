@@ -102,20 +102,24 @@ Internet böngésző telepítése, JavaScript ajánlott
 **Törlés:**
 + A recept törlése Ajax-al működik
 + A törlés gombra kattintva párbeszédablakban megerősítést vár
+**Bejelentkezés:**
++ A bejelentkezés gombra kattintva párbeszédablak ugrik fel, ahol megadhatjuk a belépéshez szükséges adatainkat
++ Hibás adatok esetén máshogy figyelmeztet az oldal mint eddig
 
 ##Az oldal teljesítményének és élményének növelése érdekében módosított illetve érintett fájlok:
 #####Új:
 + smartBalance.js
 + ajaxDelete.js
++ ajaxLogin.js
 #####Módosult:
-**Model:**
-+ -------
 **View:**
 + master.njk
 + main.njk
 + balance.njk
 + balanceCreate.njk
 + balanceEdit.njk
++ login.njk
 **Contoller:**
-+ balanceCreate.js
++ BalanceController.js
++ UserController.js
 + routes.js
