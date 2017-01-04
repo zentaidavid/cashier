@@ -70,7 +70,7 @@ Ezzel az alkalmazással az egy háztartásban élők nyomon tudják követni a k
 #####Tranzakció módosítása:
 ![balance-modify](https://github.com/zentaidavid/cashier/blob/master/docs/images/balance-modify.PNG "Új tranzakció létrehozása")
 
-##felhasználói dokumentáció:
+##Felhasználói dokumentáció:
 
 #####Futtatáshoz szükséges operációs rendszer:
 Tetszőleges operációs rendszer
@@ -90,3 +90,32 @@ Internet böngésző telepítése, JavaScript ajánlott
 9. Lista oldalon: Módosítás gombra kattintva a módosíthatjuk a tranzakció adatait
 10. Tranzakció módosítás oldal: megegyezik a Tranzakció létrehozása funkcióval, csak előre láthatóak benne a recept eddigi adatai
 11. Kiléphetünk az alkalmazásból a Kilépés gombra kattintva. Ekkor a főoldalra jutunk
+
+##Kliensoldali változások:
+**Tranzakció módosítása:**
++ Felsorolás szerűen lehet ezentúl a tranzakció kommentjéhez elemeket rendelni
++ Egy "X" és egy "+" gomb került a felhasználói felületen elhelyezésre, a felhasználói élmény növelése érdekében. Ezekkel lehet elemet hozzáadni egy tranzakcióhoz, illetve azt törölni.
+**Tranzakció létrehozása:**
++ Máshogy figyelmeztet a rosszul, illetve hibásan kitöltött mezőkre az alkalmazás
++ Ebben az esetben a kijavításig nem lehet elküldeni az adatokat a szervernek, a küldés gomb nem kattintható
++ Nem vesznek el a hibásan kitöltött adatok mezői az oldal frissülésekor
+**Törlés:**
++ A recept törlése Ajax-al működik
++ A törlés gombra kattintva párbeszédablakban megerősítést vár
+
+##Az oldal teljesítményének és élményének növelése érdekében módosított illetve érintett fájlok:
+#####Új:
++ smartBalance.js
++ ajaxDelete.js
+#####Módosult:
+**Model:**
++ -------
+**View:**
++ master.njk
++ main.njk
++ balance.njk
++ balanceCreate.njk
++ balanceEdit.njk
+**Contoller:**
++ balanceCreate.js
++ routes.js

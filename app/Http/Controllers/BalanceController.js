@@ -112,6 +112,16 @@ class BalanceController {
 
         res.redirect('/balance')
     }
+
+    * ajaxDelete (req, res) {
+        const recipe = yield Balance.find(req.param('id'))
+
+        yield balance.delete()
+
+        res.ok({
+            success: true
+        })
+    }
 }
 
 module.exports = BalanceController
