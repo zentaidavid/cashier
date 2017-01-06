@@ -140,20 +140,20 @@ Csak Firefox böngészőben működik.
 + A developer eszköztárból érhetjük el 
 
 **Használat**
-+ ![Felhasználói felület](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE1.PNG "felhasználói felület")
-A bekarikázott gombbal lehet elindítani a teszt felvételét.
-+ ![Teszt indítása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE2.PNG "teszt indítása")
-Az IDE jegyzi a folyamatokat amiket végrehajtunk és elmenti azokat.
-+ ![Teszt leállítása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE3.PNG "teszt leállítása")
-Miután végrehajtottuk a tesztelni kívánt funkciókat rákattintunk ismét a felvétel funkcióra és leállítjuk azt.
-Ezután a tesztet le tudjuk menteni a Fájl -> Save Test Case as ... menüponttal.
-+ ![Tesztek lejátszása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE4.PNG "tesztek lejátszása")
-A pirossal jelölt funkcióval a kijelölt tesztesetet tudjuk lejátszani.
-A kékkel jelölt funcióval az összes tesztesetet le tudjuk játszani.
-A Fast___Slow csúszkával tudjuk a lejátszás gyorsaságát szabályozni.
-+ ![Sikertelen teszt](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE5.PNG "sikertelen teszt")
-Ha a teszt sikertelenül fut le az IDE pirossal jelzi.
-+ ![Sikeres teszt](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE6.PNG "sikeres teszt")
-Sikeres esetben zölden jelez.
-+ ![Teszt módosítása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE7.PNG "teszt módosítása")
-Módosítani a Zölddel jelzett mezőkben lehet a tesztet.
++ A bekarikázott gombbal lehet elindítani a teszt felvételét.
+![Felhasználói felület](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE1.PNG "felhasználói felület")
++ Az IDE jegyzi a folyamatokat amiket végrehajtunk és elmenti azokat.
+![Teszt indítása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE2.PNG "teszt indítása")
++ Miután végrehajtottuk a tesztelni kívánt funkciókat rákattintunk ismét a felvétel funkcióra és leállítjuk azt.
++ Ezután a tesztet le tudjuk menteni a Fájl -> Save Test Case as ... menüponttal.
+![Teszt leállítása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE3.PNG "teszt leállítása")
++ A pirossal jelölt funkcióval a kijelölt tesztesetet tudjuk lejátszani.
++ A kékkel jelölt funcióval az összes tesztesetet le tudjuk játszani.
++ A Fast___Slow csúszkával tudjuk a lejátszás gyorsaságát szabályozni.
+![Tesztek lejátszása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE4.png "tesztek lejátszása")
++ Ha a teszt sikertelenül fut le az IDE pirossal jelzi.
+![Sikertelen teszt](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE5.png "sikertelen teszt")
++ Sikeres esetben zölden jelez.
+![Sikeres teszt](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE6.png "sikeres teszt")
++ Módosítani a Zölddel jelzett mezőkben lehet a tesztet.
+![Teszt módosítása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE7.png "teszt módosítása")
