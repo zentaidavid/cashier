@@ -109,6 +109,10 @@ Internet böngésző telepítése, JavaScript ajánlott
 + A bejelentkezés gombra kattintva párbeszédablak ugrik fel, ahol megadhatjuk a belépéshez szükséges adatainkat
 + Hibás adatok esetén máshogy figyelmeztet az oldal mint eddig
 
+##Szekvenciadiagram
+Bejelentkezés folyamata:
+![bejelentkezés](https://github.com/zentaidavid/cashier/blob/master/docs/images/szekvenciadiagram.PNG "bejelentkezés")
+
 ##Az oldal teljesítményének és élményének növelése érdekében módosított illetve érintett fájlok:
 #####Új:
 + smartBalance.js
