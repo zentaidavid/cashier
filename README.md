@@ -154,7 +154,6 @@ Csak Firefox böngészőben működik.
 + Ha a teszt sikertelenül fut le az IDE pirossal jelzi.
 ![Sikertelen teszt](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE5.png "sikertelen teszt")
 + Sikeres esetben zölden jelez.
-
-![Sikeres teszt](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE6.png "sikeres teszt")
++ ![Sikeres teszt](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE6.png "sikeres teszt")
 + Módosítani a Zölddel jelzett mezőkben lehet a tesztet.
 ![Teszt módosítása](https://github.com/zentaidavid/cashier/blob/master/docs/images/seleniumIDE7.png "teszt módosítása")
